@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Email tamplete</title>
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-    </style>
 </head>
-<body  style="width: 600px; margin: 0 auto; padding: 12px 24px 0 24px; box-shadow: 0 0 10px 0 #000; box-sizing: border-box;">
+<body>
     <table>
             <thead>
                 <tr>
@@ -19,37 +16,37 @@
                             ;">View in browser</a>                            
                         <br>
                         <img src="/img/logo.png" alt="ACME" width="119" height="51" style="margin: 16px;">
-                        <div style="text-align: left;margin: 24px 0;">
-                        <p style="margin: 0 0 8px;font-size: 28px;">Functional Style</p>
-                        <p style="line-height: 24px;font-size: 15px; font-weight: 400;color: #607085;">Combine practicality and style effortlessly with our furniture, offering functional designs that enhance your living space
+                        <div>
+                        <p class="par-first">Functional Style</p>
+                        <p class="par">Combine practicality and style effortlessly with our furniture, offering functional designs that enhance your living space
                         </p>
                     </div>
                     </th>
                 </tr>
             </thead>
-            <tbody style="color: #607085;">
-                    <tr style="font-size: 16px; height: 56px; font-weight: 600; color: #101828; border-bottom: 1px solid #e0e0e0;">
-                        <td style="width: 376px;">Item</td>
+            <tbody>
+                    <tr class="col-main">
+                        <td class= "first-colum">Item</td>
                         <td>Qty</td>
-                        <td style="text-align: right;">Price</td>
+                        <td class="third-class">Price</td>
                     </tr>    
-                    <tr style="font-size: 16px; height: 56px; font-weight: 400; border-bottom: 1px solid #e0e0e0;">
-                        <td style="width: 376px;">Elegant Feast</td>
+                    <tr class="col-else">
+                        <td class="first-colum">Elegant Feast</td>
                         <td>2</td>
-                        <td style="text-align: right;">$499.99</td>
+                        <td class="third-class">$499.99</td>
                     </tr>
-                    <tr style="font-size: 16px; height: 56px; font-weight: 400; border-bottom: 1px solid #e0e0e0;">
-                        <td style="width: 376px;">Modern Fusion</td>
+                    <tr class="col-else">
+                        <td class="first-colum">Modern Fusion</td>
                         <td>2</td>
-                        <td style="text-align: right;">$699.99</td>
+                        <td class="third-class">$699.99</td>
                     </tr>
-                    <tr style="font-size: 16px; height: 56px; font-weight: 400; border-bottom: 1px solid #e0e0e0;">
-                        <td style="width: 376px;">Rustic Charm</td>
+                    <tr class="col-else">
+                        <td class="first-colum">Rustic Charm</td>
                         <td>2</td>
-                        <td style="text-align: right;">$399.99</td>
+                        <td class="third-class">$399.99</td>
                     </tr>    
-                <tr style="font-size: 16px; height: 56px; font-weight: 600; color: #101828; border-bottom: 1px solid #e0e0e0;">
-                    <td style="width: 376px;">Total</td>
+                <tr class="col-main">
+                    <td class="first-colum">Total</td>
                     <td>6</td>
                     <td style="text-align: right;">$3194.99</td>
                 </tr>    
@@ -57,15 +54,15 @@
             <tfoot>
                 <tr>
                     <td colspan="3">
-                        <table style="margin: 0 0 24px; width: 100%;">
+                        <table id="end">
                             <tr>
                                 <td style="width: 50%;">
                                     <img src="img/logo.png" alt="ACME" width="119" height="51" style="text-align: left;margin: 24px 0 12px;">
-                                    <p style="line-height: 24px;font-size: 16px; font-weight: 600; margin: 0 0 4px;">Acme corporation</p>
-                                    <p style="line-height: 24px;font-size: 15px; font-weight: 400;color: #607085; margin: 0 0 24px;">Think different</p>
+                                    <p class="par par-big">Acme corporation</p>
+                                    <p class="par par-end">Think different</p>
                                 </td>
                                 <td style="vertical-align: bottom; text-align: right;">
-                                    <p style="line-height: 24px;font-size: 15px; font-weight: 400;color: #607085; margin: 0 0 24px;">123 Main Street Anytown, CA 12345</p>
+                                    <p class="par">123 Main Street Anytown, CA 12345</p>
                                 </td>         
                             </tr>
                         </table>
