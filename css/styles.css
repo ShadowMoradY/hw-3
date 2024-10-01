@@ -18,6 +18,7 @@ tbody {
 
 .first-colum {
     width: 376px;
+    padding: 20px 0;
 }
 
 .third-class {
@@ -69,6 +70,8 @@ div {
     margin: 0 0 4px;
     color: #000;
 }
+
+
 
 
 
